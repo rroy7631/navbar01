@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rRoy</title>
+    <!-- <link rel="stylesheet" href="nabarhtmlcss.css"> -->
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+.menubg{
+    background-color: darkgray;
+    height: 60px;
+}
+
+
+.logo h1{
+    width: 30%;
+    margin-left: 100px;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+    float: left;
+    
+}
+
+.menu ul li{
+    float: right;
+    margin-right : 30px;
+    line-height: 60px;
+    font-size: 20px;
+    
+}
+
+
+a{
+    color: rgb(255, 0, 0);
+    
+}
+a:hover{
+    color: ghostwhite;
+}
+
+.bar-btn{
+    float: right;
+    position: relative;
+    top: -45px;
+    right: 60px;
+
+    /* position: relative;
+    top: 10px;
+    left: 50px; */
+}
+.bar-btn{
+ display: none;
+
+}
+.bar{
+    width: 30px;
+    height: 5px;
+    background-color: gold;
+    margin-top: 5px;
+}
+.menu-mini{
+    display: none;
+}
+
+
+@media ( max-width:850px){
+    a{
+        color: gold;
+    }
+
+ ul li{
+     display: none ;
+ }
+ .bar-btn{
+     display: block;
+ }
+
+ .menu-mini{
+     display: block;
+     width: 90%;
+     background-color: blueviolet;
+     display: block;
+     color: black;
+
+ }
+
+}
+
+
+@media (max-width:480px){
+
+.bar-btn{
+    margin-right: -25px;
+}
+
+.logo{
+    margin-left: -80px;
+}
+}
+
+</style>
+
+</head>
+<body>
+    <div class="backgroud_img" >
+        <div class="menubg" >
+        <div class="logo">
+               <h1>Ravinder</h1>
+        </div>         
+        <div class="menu">
+            <ul>
+          
+                <li><a href="https://www.youtube.com/watch?v=oLgtucwjVII">youtube</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oLgtucwjVII">about us</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oLgtucwjVII">contact</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oLgtucwjVII">facebook</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oLgtucwjVII">Home1 </a></li>
+          
+
+            </ul>
+               
+
+         </div>
+        
+    </div>
+
+ 
+
+
+
+     <button type="button"  class="bar-btn" style="background-color: darkgrey;">  
+         <div class="bar"></div> 
+         <div class="bar"></div>
+         <div class="bar"></div>        
+
+     </button>
+     
+    
+</div>
+
+<div class="box">
+
+</div>
+
+</body>
+</html>
